@@ -478,6 +478,7 @@
     color: #494949;
     font-size: 1.1rem;
     font-weight: 500;
+    white-space: nowrap;
     text-align: center;
 }
 
