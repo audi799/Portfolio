@@ -451,7 +451,9 @@
     margin-bottom: 1rem;
     margin-right: 1rem;
 
-    height: 15rem;
+    width: 450px;
+    height: 320px;
+    /*height: 15rem;*/
 
     border-radius: 1rem;
     outline: 0.15rem solid #2390ef;
@@ -748,12 +750,14 @@
     #main > .projects > .container > .content > .description-container > .description {
         font-size: 0.95rem;
         font-weight: 400;
+        white-space: nowrap;
     }
 
     #main > .projects > .container > .content > .description-container > .detail-container > .subject,
     #main > .projects > .container > .content > .description-container > .detail-container > .detail {
         font-size: 0.9rem;
         font-weight: 280;
+        white-space: nowrap;
     }
 
     /* career */
