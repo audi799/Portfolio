@@ -451,9 +451,7 @@
     margin-bottom: 1rem;
     margin-right: 1rem;
 
-    width: 380px;
-    height: 320px;
-    /*height: 15rem;*/
+    height: 15rem;
 
     border-radius: 1rem;
     outline: 0.15rem solid #2390ef;
@@ -847,7 +845,7 @@
 
     /* projects */
     #main > .projects > .container > .content > .image-container > .bigImage {
-        height: 14rem;
+        height: 12rem;
     }
 
     /* career */
