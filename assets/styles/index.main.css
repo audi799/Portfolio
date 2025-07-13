@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#main {
+    overflow: hidden;
+}
+
 #main > .home {
     width: 100%;
 
