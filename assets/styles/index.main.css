@@ -127,7 +127,6 @@
 
     font-size: 1.5rem;
     font-weight: 400;
-    text-shadow: 0.1rem 0.1rem 0 #8c8c8c;
 }
 
 #main > .about-me > .description {
@@ -204,7 +203,6 @@
 
     font-size: 1.5rem;
     font-weight: 400;
-    text-shadow: 0.1rem 0.1rem 0 #8c8c8c;
 }
 
 #main > .skills > .language,
@@ -237,10 +235,9 @@
 }
 
 #main > .skills > .language > .container > .caption {
-    color: #000000;
+    color: #8c8c8c;
     font-size: 1rem;
-    font-weight: 200;
-    text-shadow: 0.08rem 0.08rem 0 #8c8c8c;
+    font-weight: 600;
 }
 
 #main > .skills > .language > .container > .caption.web {
@@ -262,8 +259,9 @@
 }
 
 #main > .skills > .ide > .container > .caption {
-    font-weight: 300;
-    text-shadow: 0.05rem 0.05rem 0 #8c8c8c;
+    color: #8c8c8c;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 #main > .skills > .database {
@@ -295,8 +293,9 @@
 }
 
 #main > .skills > .database > .container > .caption {
-    font-weight: 300;
-    text-shadow: 0.05rem 0.05rem 0 #8c8c8c;
+    color: #8c8c8c;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 #main > .strength {
@@ -333,7 +332,6 @@
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
-    text-shadow: 0.1rem 0.1rem 0 #8c8c8c;
 }
 
 #main > .strength > .introduce-myself {
@@ -344,7 +342,7 @@
 
     font-size: 1rem;
     font-weight: 400;
-    font-style: italic;
+    color: #8c8c8c;
 
     background-color: #eaeaea;
     border-radius: 1rem;
@@ -384,7 +382,6 @@
 
     color: #ffffff;
     font-size: 3rem;
-    text-shadow: 0.15rem 0.15rem 0 #000000;
     letter-spacing: 1rem;
     white-space: nowrap;
 
@@ -413,7 +410,6 @@
     color: #000000;
     font-size: 1.5rem;
     font-weight: 400;
-    text-shadow: 0.1rem 0.1rem 0 #8c8c8c;
 }
 
 #main > .projects > .container {
@@ -461,6 +457,12 @@
     outline: 0.15rem solid #2390ef;
 }
 
+#main > .projects > .container > .content > .image-container > .image:hover,
+#main > .projects > .container > .content > .image-container > .bigImage:hover {
+    cursor: pointer;
+    scale: 160%;
+    outline: 0.15rem solid #e83f3f;
+}
 
 #main > .projects > .container > .content > .description-container {
     width: 100%;
@@ -500,10 +502,9 @@
 
     width: 100%;
 
-    color: #9b9b9b;
+    color: #285f8f;
     font-size: 1rem;
-    font-weight: 300;
-    text-shadow: 0.05rem 0.05rem 0 #2a72b0;
+    font-weight: 600;
     text-align: left;
 
     box-sizing: border-box;
@@ -514,10 +515,9 @@
 
     width: 100%;
 
-    color: #9b9b9b;
+    color: #285f8f;
     font-size: 1rem;
-    font-weight: 300;
-    text-shadow: 0.05rem 0.05rem 0 #2a72b0;
+    font-weight: 600;
     text-align: right;
 
     box-sizing: border-box;
@@ -545,7 +545,6 @@
 
     font-size: 1.5rem;
     font-weight: 400;
-    text-shadow: 0.1rem 0.1rem 0 #8c8c8c;
 }
 
 #main > .career > .history {
