@@ -775,6 +775,7 @@
     #main > .career > .history > .side > .icon,
     #main > .career > .history > .corporation > .icon {
         height: 5rem;
+        width: 5rem;
     }
 
     #main > .career > .history > .side > .workplace > .title,
@@ -865,6 +866,7 @@
     #main > .career > .history > .side > .icon,
     #main > .career > .history > .corporation > .icon {
         height: 3.8rem;
+        width: 3.8rem;
     }
 
     #main > .career > .history > .side > .workplace > .title,
