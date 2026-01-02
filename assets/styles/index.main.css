@@ -388,10 +388,6 @@
     position: absolute;
 }
 
-#main > .projects {
-    margin-bottom: 2rem;
-}
-
 #main > .projects > .title {
     margin: 6rem 0 3rem 0;
     align-items: center;
@@ -428,7 +424,7 @@
     flex-direction: column;
     justify-content: center;
 
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 #main > .projects > .container > .content > .image-container {
@@ -521,6 +517,77 @@
     text-align: right;
 
     box-sizing: border-box;
+}
+
+#main > .license {
+    width: 95%;
+    margin-bottom: 2rem;
+}
+
+#main > .license > .title {
+    margin: 6rem 0 3rem 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main > .license > .title > .icon {
+    height: 2rem;
+}
+
+#main > .license > .title > .caption {
+    margin-left: 0.5rem;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#main > .license > .description {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vw;
+}
+
+#main > .license > .description > .content-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+}
+
+#main > .license > .description > .content-container > .content-box {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#main > .license > .description > .content-container > .content-box > span {
+    margin-right: 1.5rem;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#main > .license > .description > .content-container > .content-box > .ymd {
+    width: 4rem;
+    font-size: 1rem;
+    color: #636363;
+}
+
+#main > .license > .description > .content-container > .content-box > .caption {
+    width: 15rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+#main > .license > .description > .content-container > .content-box > .issuer {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8c8c8c;
 }
 
 #main > .career {
@@ -769,6 +836,25 @@
         font-size: 0.9rem;
         font-weight: 280;
         white-space: nowrap;
+    }
+
+    /* license */
+    #main > .license > .description > .content-container > .content-box > .ymd {
+        width: 3rem;
+        font-size: 0.9rem;
+        color: #636363;
+    }
+
+    #main > .license > .description > .content-container > .content-box > .caption {
+        width: 10rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    #main > .license > .description > .content-container > .content-box > .issuer {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #8c8c8c;
     }
 
     /* career */
