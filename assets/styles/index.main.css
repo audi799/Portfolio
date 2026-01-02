@@ -780,6 +780,7 @@
     #main > .skills > .title > .icon,
     #main > .strength > .title > .icon,
     #main > .projects > .title > .icon,
+    #main > .license > .title > .icon,
     #main > .career > .title > .icon {
         height: 1.5rem;
     }
@@ -788,6 +789,7 @@
     #main > .skills > .title > .caption,
     #main > .strength > .title > .caption,
     #main > .projects > .title > .caption,
+    #main > .license > .title > .caption,
     #main > .career > .title > .caption {
         font-size: 1.3rem;
         font-weight: 350;
