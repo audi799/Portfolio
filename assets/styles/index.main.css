@@ -840,19 +840,19 @@
 
     /* license */
     #main > .license > .description > .content-container > .content-box > .ymd {
-        width: 3rem;
-        font-size: 0.9rem;
+        width: 2.5rem;
+        font-size: 0.8rem;
         color: #636363;
     }
 
     #main > .license > .description > .content-container > .content-box > .caption {
-        width: 10rem;
-        font-size: 1rem;
+        width: 9rem;
+        font-size: 0.9rem;
         font-weight: 700;
     }
 
     #main > .license > .description > .content-container > .content-box > .issuer {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 500;
         color: #8c8c8c;
     }
