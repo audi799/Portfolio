@@ -187,7 +187,7 @@
 }
 
 #main > .skills > .title {
-    margin: 12rem 0 3rem 0;
+    margin: 8rem 0 3rem 0;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -521,7 +521,6 @@
 
 #main > .license {
     width: 95%;
-    margin-bottom: 2rem;
 }
 
 #main > .license > .title {
