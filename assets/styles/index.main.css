@@ -591,6 +591,60 @@
     color: #8c8c8c;
 }
 
+#main > .experience > .title {
+    margin: 6rem 0 3rem 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main > .experience > .title > .icon {
+    height: 2rem;
+}
+
+#main > .experience > .title > .caption {
+    margin-left: 0.5rem;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#main > .experience > .pictures {
+    padding: 1.5rem;
+
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #000000;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+#main > .experience > .pictures > .icon {
+    height: 16rem;
+}
+
+#main > .experience > .pictures > .icon.vertical {
+    height: 50rem;
+}
+
+#main > .experience > .description {
+    margin-top: 0.5rem;
+
+    width: 100%;
+
+    display: block;
+
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #8c8c8c;
+    text-align: center;
+}
+
 #main > .career {
     width: 95%;
     margin-bottom: 2rem;
@@ -722,6 +776,12 @@
 #main > .career > .history > .task > .text {
     font-size: 1rem;
     font-weight: 300;
+}
+
+#main > .career > .history > .task.bottom_line {
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 0.12rem solid #000000;
 }
 
 /* 아래서부턴 스크린사이즈에따라 가변적이어야할 요소들 정의 */
@@ -919,7 +979,20 @@
         letter-spacing: 0;
     }
 
-    /* skills */
+    /* experience */
+    #main > .experience > .description {
+        font-size: 1rem;
+    }
+
+    #main > .experience > .pictures > .icon {
+        height: 11rem;
+    }
+
+    #main > .experience > .pictures > .icon.vertical {
+        height: 35rem;
+    }
+
+        /* skills */
     #main > .skills > .language,
     #main > .skills > .ide {
         align-items: center;
