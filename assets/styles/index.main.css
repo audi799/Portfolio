@@ -994,7 +994,8 @@
 
         /* skills */
     #main > .skills > .language,
-    #main > .skills > .ide {
+    #main > .skills > .ide,
+    #main > .skills > .database {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -1012,6 +1013,10 @@
 
         width: 9.5rem;
         height: 6.5rem;
+    }
+
+    #main > .skills > .database > .container {
+        margin-bottom: 2.5rem;
     }
 
     #main > .skills > .database > .container > .icon {
