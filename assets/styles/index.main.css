@@ -599,6 +599,11 @@
     justify-content: center;
 }
 
+#main > .experience > .empty_space {
+    width: 100%;
+    height: 5rem;
+}
+
 #main > .experience > .title > .icon {
     height: 2rem;
 }
